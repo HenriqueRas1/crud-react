@@ -13,6 +13,6 @@ export default props =>
     <div className="app">
         <Logo />
         <Nav />
-        <Main />
+        <Main icon="home" tittle="start." subtittle="Second project from react." />
         <Footer />
     </div>
