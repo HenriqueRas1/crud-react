@@ -8,5 +8,9 @@ const headerProps = {
 }
 // componente de classe para metodo de ciclo de vida react e estado
 export default class UserCrud extends Component {
-
+    render() {
+        <Main {...headerProps}>
+            Cadastro de Usuário
+        </Main>
+    }
 }
