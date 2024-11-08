@@ -1,12 +1,12 @@
 import { Switch, Route, Redirect } from 'react-router'
 
 import Home from '../components/home/Home'
-import UserCrud from '../components/user/userCrud'
+import UserCrud from '../components/user/UserCrud'
 
 export default props => 
     <Switch> 
-        /* configurando uma rota para a pagina principal da aplicação*/ 
         <Route exact path='/' component={Home} />
+        <Route path='/users' component={userCrud} />
     </Switch>
 
 
