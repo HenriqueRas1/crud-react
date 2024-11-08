@@ -1,15 +1,17 @@
 import { Routes, Route } from "react-router-dom";
+import Routes from './Routes';
+
 
 import Home from '../components/home/Home'
 import UserCrud from '../components/user/UserCrud'
 
-export default props => 
+export default props => (
     <Routes> 
-        <Route exact path='/' element={<Home />} />
-        <Route path='/users' element={<UserCrud />} />
-        <Route from='*' element={<Home />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/users" element={<UserCrud />} />
+        <Route path="*" element={<Home />} />
     </Routes>
-
+);
 
 
 
