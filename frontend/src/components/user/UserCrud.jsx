@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Main from '../template/Main'
 
 const headerProps = {
-    icon: 'users',
+    icon: 'Users',
     title: 'usuarios',
     subtitle: 'Cadastro de usuarios: incluir, Listar, Alterar e Excluir'
 }
