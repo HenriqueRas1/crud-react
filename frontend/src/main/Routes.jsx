@@ -3,8 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 
 import Home from '../components/home/Home'
-import UserCrud from './components/user/UserCrud.jsx'
-
+import UserCrud from "../components/user/UserCrud.jsx";
 
 export default props => (
     <Routes> 
