@@ -3,7 +3,7 @@ import Main from '../template/Main'
 
 const headerProps = {
     icon: 'Users',
-    title: 'usuarios',
+    title: 'Users',
     subtitle: 'Cadastro de usuarios: incluir, Listar, Alterar e Excluir'
 }
 // componente de classe para metodo de ciclo de vida react e estado
