@@ -26,8 +26,14 @@ export default class UserCrud extends Component {
     
     state = {...initialState}
 
+    // limpar a lista de usuario
+    clear() {
+        this.setState({ user: initialState.user }) 
+    }
 
-    
+   
+
+
     render() {
         return (
             <Main {...headerProps}>
