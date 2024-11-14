@@ -42,7 +42,7 @@ export default class UserCrud extends Component {
                 this.setState({ user: initialState.user, list })
             })
     }
-
+    // Implementa método para atualizar lista de usuários 
     getUpdatedList(user, add = true) {
         const list = this.state.list.filter(u => u.id !== user.id)
         if(add) list.unshift(user)
