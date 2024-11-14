@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Main from '../template/Main'
-import axios from 'axios' 
+import axios from 'axios' // biblioteca http (permite fazer requisições no navegador e no Node.js)
 
 
 const headerProps = {
