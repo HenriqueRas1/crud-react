@@ -16,11 +16,6 @@ const initialState = {
 }
 
 
-
-
-
-
-
 // componente de classe para metodo de ciclo de vida react e estado
 export default class UserCrud extends Component {
     
