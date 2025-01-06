@@ -50,12 +50,19 @@ export default class UserCrud extends Component {
         this.setState({ user }) // 3. Atualiza o state com o objeto modificado
     }
 
-    renderForm() {
+    renderForm() {  //render de form
         return (
             <div className="form">
-                <div className="row">
+                <div className="row"> 
                     <div className="col-12 col-md-6">
-
+                        <div className="form-group">
+                            <label>Nome</label>
+                            <input type="text" className="form-control"
+                                name="name"
+                                value={this.state.user.name}
+                                onChange={e => this.updateField(e)}
+                                placeholder='Digite o nome...' />
+                        </div>
                     </div>
                 </div>
             </div>
