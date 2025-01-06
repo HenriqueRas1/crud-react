@@ -44,6 +44,11 @@ export default class UserCrud extends Component {
         return list
     }
 
+    updateField(event) {
+        const user = { ...this.state.user } //cria copia 
+    }
+
+
     render() {
         return (
             <Main {...headerProps}>
