@@ -45,7 +45,7 @@ export default class UserCrud extends Component {
     }
 
     updateField(event) {
-        const user = { ...this.state.user } //cria copia 
+        const user = { ...this.state.user } //clonei o this.state.user e armazenei na constante user
     }
 
 
