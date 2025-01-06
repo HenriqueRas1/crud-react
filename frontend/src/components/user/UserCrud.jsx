@@ -50,6 +50,10 @@ export default class UserCrud extends Component {
         this.setState({ user }) // 3. Atualiza o state com o objeto modificado
     }
 
+    renderForm() {
+        
+    }
+
 
     render() {
         return (
