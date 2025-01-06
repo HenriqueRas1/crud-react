@@ -45,7 +45,7 @@ export default class UserCrud extends Component {
     }
 
     updateField(event) {
-        const user = { ...this.state.user }  // 1. Cria uma cópia do state
+        const user = { ...this.state.user }  // 1. Cria uma cópia do state (user)
         user[event.target.name] = event.target.value // 2. Atualiza o valor do campo específico
         this.setState({ user }) // 3. Atualiza o state com o objeto modificado
     }
