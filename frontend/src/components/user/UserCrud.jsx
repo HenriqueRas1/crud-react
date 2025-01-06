@@ -46,6 +46,7 @@ export default class UserCrud extends Component {
 
     updateField(event) {
         const user = { ...this.state.user } //clonei o this.state.user e armazenei na constante user
+        user[event.target.name] = event.target.value // usar o nome do input pra procurar a propriedaede dentro do estado
     }
 
 
