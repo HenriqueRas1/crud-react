@@ -79,7 +79,9 @@ export default class UserCrud extends Component {
                 </div>
                 <hr /> 
                 <div className="row"> 
-                    
+                    <div className="col-12 d-flex justify-content-end">
+                        
+                    </div>
                 </div>
             </div>
         )
