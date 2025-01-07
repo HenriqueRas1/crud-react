@@ -86,7 +86,7 @@ export default class UserCrud extends Component {
                         </button>
 
                         <button className="btn btn-secondary ml-2"
-                        >
+                        onClick={e => this.clear(e)}>
                             Cancelar
                         </button>
                     </div>
