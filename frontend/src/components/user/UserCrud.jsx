@@ -83,6 +83,10 @@ export default class UserCrud extends Component {
                         <button className="btn btn-primary">
                             Salvar
                         </button>
+
+                        <button className="btn btn-secondary ml-2">
+                            
+                        </button>
                     </div>
                 </div>
             </div>
