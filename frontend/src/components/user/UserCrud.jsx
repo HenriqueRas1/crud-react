@@ -95,11 +95,11 @@ export default class UserCrud extends Component {
         )
     }
 
-
+// render do formulario na tela
     render() {
         return (
             <Main {...headerProps}>
-                Cadastro de Usuário
+                {this.renderForm()}
             </Main>
         )
     }
