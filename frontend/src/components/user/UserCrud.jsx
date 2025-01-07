@@ -70,6 +70,8 @@ export default class UserCrud extends Component {
                         <input type="text" className="form-control"
                         name="email"
                         input={this.state.user.email}
+                        onChange={e => this.updateField(e)}
+                        placeholder='Type your email here'
                         />
                             
                     </div>
