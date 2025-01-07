@@ -67,7 +67,9 @@ export default class UserCrud extends Component {
                 <div className="col-12 col-md-6">
                     <div className="form-group">
                         <label>E-mail</label>
-                        <input type="text" className="form-control"/>
+                        <input type="text" className="form-control"
+                        name="email"/>
+                            
                     </div>
                 </div>
                 </div>
