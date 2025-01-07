@@ -64,6 +64,12 @@ export default class UserCrud extends Component {
                                 placeholder='Digite o nome...' />
                         </div>
                     </div>
+                <div className="col-12 col-md-6">
+                    <div className="form-group">
+                        <label>E-mail</label>
+                        <input type="text" className="form-control"/>
+                    </div>
+                </div>
                 </div>
             </div>
         )
