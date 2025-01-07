@@ -68,7 +68,9 @@ export default class UserCrud extends Component {
                     <div className="form-group">
                         <label>E-mail</label>
                         <input type="text" className="form-control"
-                        name="email"/>
+                        name="email"
+                        input={this.state.user.email}
+                        />
                             
                     </div>
                 </div>
