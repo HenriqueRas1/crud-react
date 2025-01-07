@@ -80,7 +80,9 @@ export default class UserCrud extends Component {
                 <hr /> 
                 <div className="row"> 
                     <div className="col-12 d-flex justify-content-end">
-                        <button className="btn btn-primary"></button>
+                        <button className="btn btn-primary">
+                            Salvar
+                        </button>
                     </div>
                 </div>
             </div>
