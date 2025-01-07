@@ -77,6 +77,10 @@ export default class UserCrud extends Component {
                     </div>
                 </div>
                 </div>
+                <hr /> 
+                <div className="row"> 
+                    
+                </div>
             </div>
         )
     }
