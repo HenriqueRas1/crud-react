@@ -21,6 +21,14 @@ export default class UserCrud extends Component {
     
     state = {...initialState}
 
+
+
+    componentWillMount() {
+        axios(baseUrl).then(resp => {
+            this.setState({ list: resp.data })
+        })
+    }
+
     // limpar a lista de usuario
     clear() {
         this.setState({ user: initialState.user }) 
