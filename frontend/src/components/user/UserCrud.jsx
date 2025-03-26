@@ -97,6 +97,7 @@ export default class UserCrud extends Component {
 
 // render do formulario na tela
     render() {
+        console.log(this.state.list)
         return (
             <Main {...headerProps}>
                 {this.renderForm()}
