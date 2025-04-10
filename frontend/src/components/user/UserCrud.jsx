@@ -21,6 +21,12 @@ export default class UserCrud extends Component {
     
     state = {...initialState}
 
+    componentWillUnmount() {
+        axios(baseUrl).then(resp => {
+            this.setState({ list: resp.data })
+        })
+    }
+
     // limpar a lista de usuario
     clear() {
         this.setState({ user: initialState.user }) 
@@ -97,6 +103,7 @@ export default class UserCrud extends Component {
 
 // render do formulario na tela
     render() {
+     //   console.log(this.state.list)
         return (
             <Main {...headerProps}>
                 {this.renderForm()}
