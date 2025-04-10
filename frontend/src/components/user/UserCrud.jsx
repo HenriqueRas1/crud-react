@@ -101,6 +101,17 @@ export default class UserCrud extends Component {
         )
     }
 
+    load(user) {
+        this.setState({ user }) // carrega o usuario no form
+    }
+
+    remove(user) {
+        axios.delete(`${baseUrl}/${user.id}`).then(resp => {
+            const list = this.state.list.filter(u => u !== user)
+            this.setState({ list })
+        })
+    }
+
 // render do formulario na tela
     render() {
      //   console.log(this.state.list)
